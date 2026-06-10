@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Smart Notes Pro</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<h1>
+
+<i class="fa-solid fa-note-sticky"></i>
+
+Smart Notes Pro
+
+</h1>
+
+<p>Capture your ideas beautifully.</p>
+
+<button id="themeToggle">
+
+🌙
+
+</button>
+
+</header>
+
+<div class="searchBox">
+
+<input
+type="text"
+id="search"
+placeholder="Search Notes...">
+
+</div>
+
+<div class="editor">
+
+<h2>
+
+Create New Note
+
+</h2>
+
+<textarea
+id="noteInput"
+placeholder="Write your thoughts here..."></textarea>
+
+<div class="bottom">
+
+<span id="count">
+
+0 Characters
+
+</span>
+
+<button id="saveBtn">
+
+<i class="fa-solid fa-floppy-disk"></i>
+
+Save Note
+
+</button>
+
+</div>
+
+</div>
+
+<h2 class="saved">
+
+Your Notes
+
+</h2>
+
+<div id="notesContainer">
+
+</div>
+
+</div>
+
+<script src="script.js">
+
+</script>
+
+</body>
+
+</html>
